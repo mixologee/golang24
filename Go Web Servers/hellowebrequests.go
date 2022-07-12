@@ -10,7 +10,7 @@ func helloWeb(w http.ResponseWriter, r *http.Request) {
                 return
         }
 
-        switch r.Header.Get("Accept") {
+        switch r.Method {
                 case "GET":
                          w.Write([]byte("This was a GET request.\n"))
                 case "POST":
