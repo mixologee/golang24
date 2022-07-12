@@ -4,13 +4,13 @@ package simpletest3
 func translate(s string) string {
         switch s {
                 case "en-US":
-                        return "Hello " + s
+                        return "Hello "
                 case "fr-FR":
-                        return "Bonjour " + s
+                        return "Bonjour "
                 case "it-IT":
-                        return "Ciao " + s
+                        return "Ciao "
                 default:
-                        return "Hello " + s
+                        return "Hello "
         }
 }
 
