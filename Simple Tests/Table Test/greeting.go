@@ -1,3 +1,4 @@
+
 package simpletest3
 
 func translate(s string) string {
@@ -13,6 +14,8 @@ func translate(s string) string {
         }
 }
 
-func Greeting(s string) string {
-        return "Hello " + s
+func Greeting(name, locale string) string {
+        salutation := translate(locale)
+        return (salutation + name)
 }
+
