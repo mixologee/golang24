@@ -1,2 +1,2 @@
 # golang24
-learn go in 24 hours book
+Sample code based on STY Go in 24 Hours
