@@ -5,3 +5,4 @@
 <p>hellowebheader.go - Demonstrates how to add a header to a web response.</p>
 <p>hellowebrequests.go - Demonstrates how to accept multiple request types.</p>
 <p>hellowebrequestdata.go - Demonstrates how to handle data for GET and POST requests.</p>
+<p> Dockerfile - this can be used as a reference on how to build and deploy a Go web server as a Docker containter.</p>
